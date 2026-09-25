@@ -58,12 +58,10 @@ window = uic.loadUi(
 )
 
 
-# Botões da interface
 window.pushButton.clicked.connect(start_clicker)
 window.pushButton_2.clicked.connect(stop_clicker)
 
 
-# Atalhos globais
 keyboard.add_hotkey("f6", start_clicker)
 keyboard.add_hotkey("f4", stop_clicker)
 
